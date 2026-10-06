@@ -1,5 +1,4 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;###autoload
 (defun mjr-print-ps-file (filename)
   "Print the current buffer as a postscript file"
   (interactive (list (read-file-name "PS Print Output File:" "~/tmp/ps-out/" nil nil "out.ps")))

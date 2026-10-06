@@ -19,7 +19,7 @@
 ;; TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ;; Author:      Mitch Richling <https://www.mitchr.me/>
-;; Version:     0.2
+;; Version:     0.3
 ;; Keywords:    
 ;; URL:         https://github.com/richmit/misc
 
@@ -27,7 +27,17 @@
 
 ;;; Commentary:
 ;;
-;; This package contains stuff I don't use, but didn't want to throwaway or commit to git oblivion.
+;; This package contains stuff I don't use much, but are not yet condemned git oblivion.  
+;; 
+;;  - Autoloaded
+;;   - mjr-grep                           An eshell friendly, pure Emacs grep-like function with xref capablity
+;;   - mjr-insert-random-printable-string Insert a random string sutable for temporary passwords.
+;;   - mjr-kill-from-web.el               Pull content from a URL and place it on the kill ring
+;;  - Not Autoloaded
+;;   - mjr-nema-checksum.el               Compute NEMA checksum for region, and place it on the kill ring
+;;   - mjr-print-ps-file.el               Print the current buffer as a postscript file
+;;   - mjr-rev-line.el                    Reverse characters in a string
+;;
 
 ;;; Code:
 
