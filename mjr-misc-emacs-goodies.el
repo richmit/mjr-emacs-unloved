@@ -27,17 +27,7 @@
 
 ;;; Commentary:
 ;;
-;; Official Repository: https://github.com/richmit/mjr-misc-emacs-goodies
-;;
-;; `mjr-misc-emacs-goodies' provides ....
-;;
-;; The easiest way to install `mjr-misc-emacs-goodies' is to pull it directly from github:
-;;
-;;      (package-vc-install (list 'misc
-;;                           :url "https://github.com/richmit/mjr-misc-emacs-goodies"
-;;                           :rev 'newest))
-;;
-;; You can also just download the primary lisp file, load it into a buffer, and then run 'M-x package-install-from-buffer'.
+;; This package contains stuff I don't use, but didn't want to throwaway or commit to git oblivion.
 
 ;;; Code:
 
@@ -46,8 +36,4 @@
 ;; (mjr-install-mjr-packages :reinstall :git 'mjr-misc-emacs-goodies)
 
 ;;; mjr-misc-emacs-goodies.el ends here
-
-
-
-
 
