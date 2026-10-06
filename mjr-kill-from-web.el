@@ -22,4 +22,4 @@
                 (when (< 0 len)
                   (kill-new res-str)
                   (message "mjr-insert-from-web: %d characters placed on kill ring." len)))))
-    (error "mjr-insert-from-web: Something went wrong"))
+    (error "mjr-insert-from-web: Something went wrong")))
