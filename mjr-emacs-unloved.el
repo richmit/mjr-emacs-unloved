@@ -27,7 +27,7 @@
 
 ;;; Commentary:
 ;;
-;; * `mjr-emacs-unloved': The land of unloved Emacs functions
+;; * `mjr-emacs-unloved': The Land of Unloved Code
 ;;
 ;; Official Repository: https://github.com/richmit/mjr-emacs-unloved
 ;;

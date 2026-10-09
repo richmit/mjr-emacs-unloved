@@ -1,5 +1,5 @@
 <!-- :shell>>> ~/core/codeBits/bin/emacs_package_com_to_md.rb mjr-emacs-unloved.el -->
-# `mjr-emacs-unloved`: The land of unloved Emacs functions
+# `mjr-emacs-unloved`: The Land of Unloved Code
 
 Official Repository: https://github.com/richmit/mjr-emacs-unloved
 
