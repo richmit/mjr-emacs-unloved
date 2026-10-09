@@ -1,4 +1,4 @@
-;;; mjr-misc-emacs-goodies.el --- Miscellaneous Functions. -*- lexical-binding:t; coding: utf-8; mode:emacs-lisp; fill-column:158 -*-
+;;; mjr-emacs-unloved.el --- Miscellaneous Functions. -*- lexical-binding:t; coding: utf-8; mode:emacs-lisp; fill-column:158 -*-
 
 ;; Copyright (c) 2026-2026 Mitch Richling <https://www.mitchr.me>.  All rights reserved.
 ;;
@@ -27,23 +27,26 @@
 
 ;;; Commentary:
 ;;
-;; This package contains stuff I don't use much, but are not yet condemned git oblivion.  
+;; This package contains things I don't use much, but have yet to condemn to git oblivion.  
 ;; 
-;;  - Autoloaded
-;;   - mjr-grep                           An eshell friendly, pure Emacs grep-like function with xref capablity
-;;   - mjr-insert-random-printable-string Insert a random string sutable for temporary passwords.
-;;   - mjr-kill-from-web.el               Pull content from a URL and place it on the kill ring
-;;  - Not Autoloaded
-;;   - mjr-nema-checksum.el               Compute NEMA checksum for region, and place it on the kill ring
-;;   - mjr-print-ps-file.el               Print the current buffer as a postscript file
-;;   - mjr-rev-line.el                    Reverse characters in a string
+;; The slightly more useful items are autoloaded:
+;;  - `mjr-grep'                           An eshell friendly, pure Emacs grep-like function with xref capability
+;;  - `mjr-insert-random-printable-string' Insert a random string suitable for temporary passwords.
+;;  - `mjr-kill-from-web'                  Pull content from a URL and place it on the kill ring
+;;   
+;; Those closer to git oblivion are not autoloaded:
+;;  - `mjr-nema-checksum' Compute NEMA checksum for region, and place it on the kill ring
+;;  - `mjr-print-ps-file' Print the current buffer as a postscript file
+;;  - `mjr-rev-line'      Reverse characters in a string
 ;;
+;; Each of the above functions is contained in an Emacs lisp code file by itself.  These files to not `provide' anything, so they should not be used with
+;; `require'.  Instead use `load-library' to access the functions that are not autoloaded.
 
 ;;; Code:
 
-(provide 'mjr-misc-emacs-goodies)
+(provide 'mjr-emacs-unloved)
 
-;; (mjr-install-mjr-packages :reinstall :git 'mjr-misc-emacs-goodies)
+;; (mjr-install-mjr-packages :reinstall :git 'mjr-emacs-unloved)
 
-;;; mjr-misc-emacs-goodies.el ends here
+;;; mjr-emacs-unloved.el ends here
 
